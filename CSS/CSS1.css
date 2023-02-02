@@ -19,7 +19,8 @@ h1{
     position: absolute; top: 0px;
 }
 .social{
-    position: absolute; bottom:0px ;
+    position: relative;
+    margin: 0% 0% 0% 50%;
 }
 footer{
     position: absolute; bottom: 0px ;
@@ -30,4 +31,11 @@ footer{
 .portrait{
     width: 400px;
     height: 600px;
+}
+button{
+    width: 200px;
+    height: 100px;
+}
+button:active{
+    size-adjust: 90%;
 }
