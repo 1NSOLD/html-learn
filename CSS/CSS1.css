@@ -33,9 +33,11 @@ footer{
     height: 600px;
 }
 button{
+    display: block;
     width: 200px;
     height: 100px;
 }
 button:active{
-    size-adjust: 90%;
+    width: 150px;
+    height: 75px ;
 }
